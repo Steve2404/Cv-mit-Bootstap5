@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
         integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/14273d579a.js" crossorigin="anonymous"></script>
     <title>Portfolio</title>
 </head>
 <body>
@@ -23,11 +25,11 @@
 
     <section class="my-3">
         <div class="container">
-            <div class="row gy-3">
+            <div class="row gy-3 align-items-center">
                 <div class="col-12 col-md-6">
-                    <h1>Je suis la mascotte W.A.C Développeur et Designer Web</h1>
-                    <h2>Bienvenue dans mon univers Créatif </h2>
-                    <button class="btn btn-primary">Mon expertise web</button>                
+                    <h1 class="fw-bold">Je suis la mascotte W.A.C Développeur et Designer Web</h1>
+                    <h2 class="fw-light">Bienvenue dans mon univers Créatif </h2>
+                    <button class="btn btn-primary mt-5">Mon expertise web</button>                
                 </div>
                 <div class="col-12 col-md-6">
                     <img src="img/portrait.jpeg" alt="Photo de profile" class="w-100"/>
@@ -37,8 +39,8 @@
     </section>
     <section class="bg-light py-5 ">
         <div class="container">
-            <h1>Mon expertise</h1>
-            <h2>Developpement Web et Designe</h2>
+            <h2 class="mb-3">Mon expertise</h2>
+            <h3 class="fw-light fs-3">Developpement Web et Designe</h3>
     
             <div class="row mt-4 gy-3">
                 <div class="col-12 col-md-7 ">
@@ -61,28 +63,28 @@
     </section >
     <section class="my-3 gy-4">
         <div class="container">
-            <h1>Mon portfolio</h1>
-            <h2>Projets Perso et Pro.</h2> 
+            <h2 class="mb-3">Mon portfolio</h2>
+            <h3 class="fw-light fs-3">Projets Perso et Pro.</h3> 
             <div class="row mt-3 gy-3">
                 <div class="col-12 col-md-3">
-                    <div class="bg-secondary w-100 h-100 py-3"></div>
+                    <div class="bg-secondary w-100 h-100 py-5"></div>
                 </div>
                 <div class="col-12 col-md-3">
-                    <div class="bg-secondary w-100 h-100 py-3"></div>
+                    <div class="bg-secondary w-100 h-100 py-5"></div>
                 </div>
                 <div class="col-12 col-md-3">
-                    <div class="bg-secondary w-100 h-100 py-3"></div>
+                    <div class="bg-secondary w-100 h-100 py-5"></div>
                 </div>
                 <div class="col-12 col-md-3">
-                    <div class="bg-secondary w-100 h-100 py-3"></div>
+                    <div class="bg-secondary w-100 h-100 py-5"></div>
                 </div>
             </div>
         </div>
     </section>
     <section class="bg-light py-5">
         <div class="container">
-            <h1>Un Projet de creation de Web ?</h1>
-            <h2>Allons en discuter au tour d un café</h2>
+            <h2 class="mb-3">Un Projet de creation de Web ?</h2>
+            <h3 class="fw-light fs-3">Allons en discuter au tour d un café</h3>
             <div class="row mt-4 gy-3">
                 <div class="col-12 col-md-5">
                     <img src="img/grab-a-coffee.jpg" alt="Une tasse de café" class="w-100">
@@ -97,15 +99,30 @@
         <div class="container py-4">
             <div class="row gy-3">
                 <div class="col-12 col-md-4">
-                    <P class="fw-bolder"><span class="bg-primary rounded-1 text-white">MASCOTTE</span>W.A.C</P>
+                    <P class="fw-bolder"><span class="bg-primary bg-gradient rounded-1 text-light">MASCOTTE</span>W.A.C</P>
                 </div>
                 <div class="col-12 col-md-3 offset-md-1">
-                    <p class="fw-light">Mentions Legales</p>
+                    <ul class="list-unstyled mb-0">
+                        <li>
+                          <a href="#" class="text-decoration-none text-dark">Mentions legales</a>
+                        </li>
+                      </ul>
                 </div>
                 <div class="col-12 col-md-1 offset-md-3">
-                    <a href="#"class="text-decoration-none text-dark"><i class="fa-brands fa-linkedin"></i></a>
-                    <a href="#"class="text-decoration-none text-dark"><i class="fa-brands fa-instagram"></i></a>
-                    <a href="#"class="text-decoration-none text-dark"><i class="fa-brands fa-twitter"></i></a>
+                    <ul class="list-inline mb-0">
+                        <li class="list-inline-item">
+                            <a href="#"class="text-decoration-none text-dark"><i class="fa-brands fa-linkedin"></i></a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#"class="text-decoration-none text-dark"><i class="fa-brands fa-instagram"></i></a>
+
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#"class="text-decoration-none text-dark"><i class="fa-brands fa-twitter"></i></a>
+
+                        </li>
+                    </ul>
+                    
                 </div>
             </div>
         </div>
